@@ -308,10 +308,38 @@ body {
 
 /* ***** /Our Team ***** */
 
+/* ***** Customers ***** */
+
+.container-customers {
+  padding: 120px 156px;
+}
+
+.list-cust-svg {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item-cust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.logo-cust {
+  width: 104px;
+  height: 56px;
+}
+
+/* ***** /Customers ***** */
+
 /* ***** Footer ***** */
 .footer-page {
+  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 156px;
   background-color: var(--color-text-sec);
 }
 
@@ -327,6 +355,17 @@ body {
 .footer-page .link-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.container-footer {
+  margin-right: 120px;
+}
+.desc-foot-svg {
+  font-weight: 500;
+  font-size: 1.5;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: var(--bg-color-head);
 }
 
 /* ***** Hero-Portfolio ***** */
