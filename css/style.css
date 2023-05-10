@@ -143,6 +143,7 @@ body {
     ),
     url("../images/bg/bg.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -185,6 +186,21 @@ body {
 .skills {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.icon-container-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 8px;
+  background: var(--color-white-light);
+  border-radius: 4px;
+}
+
+.icon-svg-skills {
+  width: 64px;
+  height: 64px;
 }
 
 .menu-skills {
