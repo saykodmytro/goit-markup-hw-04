@@ -199,11 +199,6 @@ body {
   border-radius: 4px;
 }
 
-.icon-svg-skills {
-  width: 64px;
-  height: 64px;
-}
-
 .menu-skills {
   display: flex;
   column-gap: 24px;
