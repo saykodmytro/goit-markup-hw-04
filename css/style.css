@@ -320,8 +320,11 @@ body {
 
 /* ***** Customers ***** */
 
+.customers {
+  padding: 120px 0;
+}
+
 .container-customers {
-  padding: 120px 156px;
 }
 
 .list-cust-svg {
