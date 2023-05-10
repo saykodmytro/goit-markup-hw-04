@@ -39,6 +39,10 @@ button {
   cursor: pointer;
 }
 
+.section {
+  width: 1140px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -57,6 +61,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid var(--color-border);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -82,10 +88,6 @@ body {
 .page-header .menu-item:not(:last-child) {
   margin-right: 40px;
 }
-
-/* .page-header .menu-item:last-child {
-  margin-right: 0;
-} */
 
 .link-logo {
   font-family: "Raleway", sans-serif;
@@ -130,9 +132,14 @@ body {
 /* ***** Hero 1 ***** */
 
 .hero {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--color-text-sec);
+  background-image: url("../images/bg/bg1.jpg");
+  background-size: cover;
 }
 
 .title-page {
