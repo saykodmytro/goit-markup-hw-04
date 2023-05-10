@@ -67,13 +67,6 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.container {
-  justify-content: space-between;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .page-header .container {
   display: flex;
 }
@@ -266,8 +259,15 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.container-our-team {
+  justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .container-description {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .container-description .title-description {
@@ -283,7 +283,22 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
+}
+
+.social-list-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-logo);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--color-text-hover-focus);
 }
 
 .social-list-items {
@@ -293,7 +308,6 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--color-logo);
 }
 
 .social-list-icon {
