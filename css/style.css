@@ -343,20 +343,30 @@ body {
   padding: 0 15px;
 }
 
-.list-cust-svg {
+.menu-cust-svg {
   display: flex;
   gap: 24px;
 }
 
-.menu-cust-svg {
+.list-item-cust {
+  width: calc((100% - 5 * 24px) / 6);
+  height: 88px;
+}
+
+.link-logo-cust {
   display: flex;
-  /* 
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   border: 1px solid #8e8f99;
-  border-radius: 4px; */
+  border-radius: 4px;
+  color: #8e8f99;
 }
-.logo-cust-svg {
+
+.link-logo-cust:hover,
+.link-logo-cust:focus {
+  color: red;
 }
 
 /* ***** /Customers ***** */
