@@ -370,6 +370,10 @@ body {
   color: #404bbf;
 }
 
+.logo-cust-svg {
+  fill: currentColor;
+}
+
 /* ***** /Customers ***** */
 
 /* ***** Footer ***** */
