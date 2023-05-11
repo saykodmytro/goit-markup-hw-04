@@ -366,7 +366,8 @@ body {
 
 .link-logo-cust:hover,
 .link-logo-cust:focus {
-  color: red;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 /* ***** /Customers ***** */
