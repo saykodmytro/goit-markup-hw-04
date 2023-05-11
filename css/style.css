@@ -327,8 +327,6 @@ body {
 
 .social-list-icon {
   fill: var(--color-white-light);
-  width: 16px;
-  height: 16px;
 }
 
 /* ***** /Our Team ***** */
@@ -350,18 +348,15 @@ body {
   gap: 24px;
 }
 
-.list-item-cust {
+.menu-cust-svg {
   display: flex;
+  /* 
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
   border: 1px solid #8e8f99;
-  border-radius: 4px;
+  border-radius: 4px; */
 }
-.logo-cust {
-  width: 104px;
-  height: 56px;
+.logo-cust-svg {
 }
 
 /* ***** /Customers ***** */
