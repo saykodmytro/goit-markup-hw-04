@@ -295,10 +295,20 @@ body {
   margin-bottom: 8px;
 }
 
-.social-list {
+/* SVG - Our Team  */
+.menu-social {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.social-list-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .social-list-link {
@@ -316,18 +326,10 @@ body {
   background-color: var(--color-text-hover-focus);
 }
 
-.social-list-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
 .social-list-icon {
   fill: var(--color-white-light);
 }
+/* /SVG */
 
 /* ***** /Our Team ***** */
 
@@ -378,14 +380,17 @@ body {
 
 /* ***** Footer ***** */
 .footer-page {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px;
   background-color: var(--color-text-sec);
 }
 
 .container-footer {
   display: flex;
+  align-items: baseline;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap: 120px;
 }
 
 .footer-page .description {
@@ -402,15 +407,8 @@ body {
   margin-bottom: 16px;
 }
 
-.container-footer {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  align-items: baseline;
-  gap: 120px;
-}
 .container-foot-logo {
+  /* margin-right: 120px; */
 }
 
 .desc-foot-svg {
