@@ -390,7 +390,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  gap: 120px;
 }
 
 .footer-page .description {
@@ -408,7 +407,7 @@ body {
 }
 
 .container-foot-logo {
-  /* margin-right: 120px; */
+  margin-right: 120px;
 }
 
 .desc-foot-svg {
