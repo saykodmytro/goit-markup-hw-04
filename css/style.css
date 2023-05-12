@@ -7,6 +7,7 @@
   --bg-color-head: #ffffff;
   --color-border: #e7e9fc;
   --color-svg-logo-cust: #8e8f99;
+  --color-svg-social-hov: #31d0aa;
 }
 
 h1,
@@ -430,7 +431,7 @@ body {
 
 .container-foot-svg .social-list-link:hover,
 .container-foot-svg .social-list-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--color-svg-social-hov);
 }
 /* /SVG - Footer */
 
